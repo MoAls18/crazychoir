@@ -53,7 +53,7 @@ def generate_launch_description():
     N = 6
 
     # generate communication graph (this function also sets the seed)
-    Adj = binomial_random_graph(N, 0.2, seed=3)
+    Adj = binomial_random_graph(N, 1, seed=3)
 
     # generate initial positions in [-3, 3] with z = 0
     P = np.zeros((N, 3))

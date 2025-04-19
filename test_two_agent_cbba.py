@@ -5,7 +5,7 @@ from choirbot.optimizer.cbba_optimizer import CBBAOptimizer
 from choirbot.communicator import StaticCommunicator
 import rclpy
 
-Task = namedtuple('Task', ['id', 'coordinates', 'value'])
+Task = namedtuple('Task', ['id', 'coordinates', 'value', 'seq_num'])
 class TaskList:
     def __init__(self, tasks):
         self.tasks = tasks
@@ -70,8 +70,8 @@ def test_two_agents():
     tasks = []
     
     
-    for i in range(1,11):
-        tasks.append(Task(id=i, coordinates=np.array([random_generator.uniform(-20, 20), random_generator.uniform(-20, 20)]), value=random_generator.uniform(1,1)))
+    for i in range(1,100):
+        tasks.append(Task(id=i, coordinates=np.array([random_generator.uniform(-20, 20), random_generator.uniform(-20, 20)]), value=int(random_generator.integers(5)), seq_num=i))
 
     task_list = TaskList(tasks)
     communicator = MockCommunicator()
@@ -100,7 +100,7 @@ def test_two_agents():
     guidance5.in_neighbors = [guidance1.agent_id, guidance2.agent_id, guidance3.agent_id, guidance4.agent_id]
     guidance5.out_neighbors = [guidance1.agent_id, guidance2.agent_id, guidance3.agent_id, guidance4.agent_id]
     
-    max_depth = len(tasks)
+    max_depth = 2 * len(tasks) / (len(guidance1.in_neighbors) + 1) + 2
     optimizer1 = CBBAOptimizer({'max_bundle_size': max_depth, 'task_value_weight': 0.9})
     optimizer2 = CBBAOptimizer({'max_bundle_size': max_depth, 'task_value_weight': 0.9})
     optimizer3 = CBBAOptimizer({'max_bundle_size': max_depth, 'task_value_weight': 0.9})
@@ -143,7 +143,7 @@ def test_two_agents():
     print(f"Bundle built by agent {agent3_id}: {optimizer3.bundle}")
     print(f"Bundle built by agent {agent4_id}: {optimizer4.bundle}")
     print(f"Bundle built by agent {agent5_id}: {optimizer5.bundle}")
-    
+        
     print("\n RUNNING CONSENSUS.")
     for i in range(20):
         print(f"Iteration {i+1}")
