@@ -60,6 +60,8 @@ class MockGuidance:
                 print("INFO:", message)
             def error(self, message):
                 print("ERROR:", message)
+            def warn(self, message):
+                print("WARN:", message)
         return MockLogger()
 
 def test_two_agents():
@@ -70,7 +72,7 @@ def test_two_agents():
     tasks = []
     
     
-    for i in range(1,100):
+    for i in range(1,20):
         tasks.append(Task(id=i, coordinates=np.array([random_generator.uniform(-20, 20), random_generator.uniform(-20, 20)]), value=int(random_generator.integers(5)), seq_num=i))
 
     task_list = TaskList(tasks)

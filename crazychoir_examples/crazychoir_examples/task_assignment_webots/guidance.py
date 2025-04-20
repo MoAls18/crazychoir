@@ -7,7 +7,7 @@ def main():
     rclpy.init()
 
     # initialize task guidance
-    opt_settings = {'max_iterations': 50, 'convergence_threshold': 5, 'task_value_weight': 0.95}
+    opt_settings = {'max_iterations': 100, 'convergence_threshold': 3, 'task_value_weight': 0.95}
     executor = PositionTaskExecutor()
     optimizer = CBBAOptimizer(settings=opt_settings)
     
