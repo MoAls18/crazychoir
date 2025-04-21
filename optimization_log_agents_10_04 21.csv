@@ -1,0 +1,20 @@
+agent_id,optimization_time,iterations,tasks
+6,1.883164901,5,[29]
+agent_id,optimization_time,iterations,tasks
+5,1.896787392,7,[25]
+agent_id,optimization_time,iterations,tasks
+9,1.94171978,6,[]
+agent_id,optimization_time,iterations,tasks
+7,1.973866627,7,[]
+agent_id,optimization_time,iterations,tasks
+2,1.972080846,7,"[53, 9]"
+agent_id,optimization_time,iterations,tasks
+8,1.991477477,6,"[21, 3, 41]"
+agent_id,optimization_time,iterations,tasks
+4,2.118051795,6,"[23, 2, 34, 13, 33, 16, 27, 55, 40]"
+agent_id,optimization_time,iterations,tasks
+1,2.02253679,7,"[43, 42, 51, 58, 46, 39, 20, 24]"
+agent_id,optimization_time,iterations,tasks
+3,1.915310584,6,"[4, 17, 7, 37, 31, 48, 54, 35, 11, 1, 52]"
+agent_id,optimization_time,iterations,tasks
+0,2.067711393,7,"[18, 36, 19, 22, 50, 47, 12, 8, 38, 59, 10, 44, 15, 57, 32, 6, 0, 28, 30, 14, 49, 26, 45, 56, 5]"

@@ -1,0 +1,12 @@
+agent_id,optimization_time,iterations,tasks
+1,1.452482123,5,[24]
+agent_id,optimization_time,iterations,tasks
+5,1.469109235,5,[]
+agent_id,optimization_time,iterations,tasks
+4,1.343087665,6,[27]
+agent_id,optimization_time,iterations,tasks
+2,1.464792406,6,"[20, 39]"
+agent_id,optimization_time,iterations,tasks
+3,1.318964849,6,"[4, 17, 31, 15, 32, 6, 0, 30, 25, 29, 2, 34, 13, 3, 9]"
+agent_id,optimization_time,iterations,tasks
+0,1.465536275,6,"[18, 36, 19, 22, 7, 38, 37, 8, 12, 16, 33, 26, 23, 5, 21, 14, 28, 1, 11, 35, 10]"

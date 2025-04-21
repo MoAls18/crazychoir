@@ -103,7 +103,7 @@ def generate_launch_description():
             executable='crazychoir_task_assignment_webots_table', 
             output='screen',
             prefix='xterm -title "Table" -hold -e',
-            parameters=[{'N': N}]))
+            parameters=[{'N': 40}]))
 
 
     launch_description.append(ExecuteProcess(

@@ -55,7 +55,7 @@ def generate_webots_world_file(robots, source_filename, target_filename):
 def generate_launch_description():
 
     # number of agents
-    N = 6
+    N = 2
 
     # generate communication graph (this function also sets the seed)
     Adj = binomial_random_graph(N, 1, seed=3)
@@ -64,10 +64,10 @@ def generate_launch_description():
     P = np.zeros((N, 3))
     P[0]  = np.array([ 1.0, 1.0, 0.015])
     P[1]  = np.array([ 0.0, 1.5, 0.015])
-    P[2]  = np.array([-1.0, 1.0, 0.015])
-    P[3]  = np.array([-1.0,-1.0, 0.015])
-    P[4]  = np.array([ 0.0,-1.5, 0.015])
-    P[5]  = np.array([ 1.0,-1.0, 0.015])
+    # P[2]  = np.array([-1.0, 1.0, 0.015])
+    # P[3]  = np.array([-1.0,-1.0, 0.015])
+    # P[4]  = np.array([ 0.0,-1.5, 0.015])
+    # P[5]  = np.array([ 1.0,-1.0, 0.015])
 
     # initialize launch description
     launch_description = [] # launched immediately 
@@ -103,7 +103,7 @@ def generate_launch_description():
             executable='crazychoir_task_assignment_webots_table', 
             output='screen',
             prefix='xterm -title "Table" -hold -e',
-            parameters=[{'N': N}]))
+            parameters=[{'N': 10}]))
 
 
     launch_description.append(ExecuteProcess(
