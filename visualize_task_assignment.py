@@ -139,7 +139,6 @@ def load_optimization_logs(log_dir, prefix='optimization_log'):
 
 # --- Plotting Functions ---
 
-# Removed plot_iterations_vs_agent_tasks as requested
 
 def plot_task_completion_timeline_per_run(df_tasks_subset, n_agents, output_dir):
     """Plots task completion timeline for a specific run."""
@@ -152,11 +151,11 @@ def plot_task_completion_timeline_per_run(df_tasks_subset, n_agents, output_dir)
     df_plot = df_tasks_subset.sort_values('completion_time')
 
     plt.figure(figsize=(12, 6))
-    sns.scatterplot(data=df_plot, x='completion_time', y='task_id', hue='agent_id', palette='viridis', s=100, legend='full')
+    ax = sns.scatterplot(data=df_plot, x='completion_time', y='task_id', hue='agent_id', palette='viridis', s=100, legend='full')
     plt.title(f'Task Completion Timeline ({n_agents} Agents)')
     plt.xlabel('Completion Time (s)')
     plt.ylabel('Task ID')
-
+    ax.yaxis.set_major_locator(mticker.MaxNLocator(integer=True))
     # Adjust legend position
     if len(df_plot['agent_id'].unique()) > 10:
         plt.legend(title='Agent ID', bbox_to_anchor=(1.05, 1), loc='upper left')
@@ -166,7 +165,6 @@ def plot_task_completion_timeline_per_run(df_tasks_subset, n_agents, output_dir)
         plt.tight_layout()
 
     plt.grid(True, axis='y', linestyle='--', alpha=0.7)
-
     filename = os.path.join(output_dir, f'{plot_name}.png')
     plt.savefig(filename)
     print(f"Saved plot: {filename}")
@@ -283,7 +281,7 @@ def plot_avg_iterations_vs_total_tasks(df_opt, output_dir):
 
     # Set y-axis to use integer ticks if appropriate range
     # Use MaxNLocator for automatic integer ticks if the range allows
-    ax.yaxis.set_major_locator(mticker.MaxNLocator(integer=True, min_n_ticks=4))
+    ax.yaxis.set_major_locator(mticker.MaxNLocator(integer=True))
 
 
     ax.grid(True, linestyle='--', alpha=0.7)
