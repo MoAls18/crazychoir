@@ -1,0 +1,378 @@
+[INFO] [launch]: All log files can be found below /home/mohammed/.ros/log/2025-04-21-10-46-54-546416-mohammedsPC-72644
+[INFO] [launch]: Default logging verbosity is set to INFO
+Invalid MIT-MAGIC-COOKIE-1 key[INFO] [webots-1]: process started with pid [72664]
+[INFO] [crazychoir_task_assignment_webots_gui-2]: process started with pid [72666]
+[INFO] [crazychoir_task_assignment_webots_table-3]: process started with pid [72670]
+[INFO] [ros2-4]: process started with pid [72674]
+[INFO] [driver-5]: process started with pid [72677]
+[INFO] [robot_state_publisher-6]: process started with pid [72679]
+[INFO] [crazychoir_task_assignment_webots_guidance-7]: process started with pid [72682]
+[INFO] [crazychoir_task_assignment_webots_simple_guidance-8]: process started with pid [72684]
+[INFO] [crazychoir_task_assignment_webots_planner-9]: process started with pid [72686]
+[INFO] [driver-10]: process started with pid [72698]
+[INFO] [robot_state_publisher-11]: process started with pid [72703]
+[INFO] [crazychoir_task_assignment_webots_guidance-12]: process started with pid [72710]
+[INFO] [crazychoir_task_assignment_webots_simple_guidance-13]: process started with pid [72712]
+[INFO] [crazychoir_task_assignment_webots_planner-14]: process started with pid [72721]
+[driver-5] Cannot open file: /tmp/webots-72664-hCBVjf/WEBOTS_SERVER (retry count 1)
+[robot_state_publisher-6] Parsing robot urdf xml string.
+[robot_state_publisher-6] [INFO] [1745221615.028610180] [agent_0.robot_state_publisher]: got segment 
+[driver-10] Cannot open file: /tmp/webots-72664-hCBVjf/WEBOTS_SERVER (retry count 1)
+[robot_state_publisher-11] Parsing robot urdf xml string.
+[robot_state_publisher-11] [INFO] [1745221615.067336563] [agent_1.robot_state_publisher]: got segment 
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221615.566994965] [agent_0.planner]: Planner 0 started
+[crazychoir_task_assignment_webots_planner-14] [INFO] [1745221615.633268295] [agent_1.planner]: Planner 1 started
+[driver-5] Cannot open file: /tmp/webots-72664-hCBVjf/WEBOTS_SERVER (retry count 2)
+[driver-10] Cannot open file: /tmp/webots-72664-hCBVjf/WEBOTS_SERVER (retry count 2)
+[crazychoir_task_assignment_webots_simple_guidance-8] Invalid MIT-MAGIC-COOKIE-1 key[INFO] [1745221616.279784183] [agent_0.simple_guidance]: Simple Guidance 0 started
+[crazychoir_task_assignment_webots_simple_guidance-8] [INFO] [1745221616.280133755] [agent_0.simple_guidance]: Go!
+[crazychoir_task_assignment_webots_simple_guidance-13] Invalid MIT-MAGIC-COOKIE-1 key[INFO] [1745221616.614465602] [agent_1.simple_guidance]: Simple Guidance 1 started
+[crazychoir_task_assignment_webots_simple_guidance-13] [INFO] [1745221616.614805491] [agent_1.simple_guidance]: Go!
+[crazychoir_task_assignment_webots_guidance-12] Invalid MIT-MAGIC-COOKIE-1 key[INFO] [1745221616.617512837] [agent_1.guidance]: Waiting for action server
+[webots-1] WARNING: Floor (PROTO) > Appearance > ImageTexture: Texture image size of '/home/mohammed/crazychoir_ws/src/crazychoir/crazychoir/utils/images/casy_logo.png' is not a power of two: rescaling it from 200x200 to 256x256.
+[crazychoir_task_assignment_webots_guidance-7] Invalid MIT-MAGIC-COOKIE-1 key[INFO] [1745221616.636954175] [agent_0.guidance]: Waiting for action server
+[webots-1] INFO: Starting extern controller for robot "agent_0".
+[webots-1] INFO: Starting extern controller for robot "agent_1".
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.404683621] [agent_1.guidance]: Guidance 1 started
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.405524994] [agent_1.guidance]: Optimization triggered: requesting task list
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.405935468] [agent_1.guidance]: Beginning optimization
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.408793931] [agent_1.guidance]: Data received: starting optimization
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.409914238] [agent_1.guidance]: AGENT 1 --- Iteration 1
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.410271906] [agent_1.guidance]: AGENT 1 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.424681022] [agent_0.guidance]: Guidance 0 started
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.425523021] [agent_0.guidance]: Optimization triggered: requesting task list
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.425938629] [agent_0.guidance]: Beginning optimization
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.428799430] [agent_0.guidance]: Data received: starting optimization
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.429887213] [agent_0.guidance]: AGENT 0 --- Iteration 1
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.430240990] [agent_0.guidance]: AGENT 0 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.431595697] [agent_0.guidance]: AGENT 0 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.431856989] [agent_0.guidance]: AGENT 0 Processing messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.432112870] [agent_0.guidance]: AGENT 0 received message from 1
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.431658376] [agent_1.guidance]: AGENT 1 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.431928604] [agent_1.guidance]: AGENT 1 Processing messages...
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.432195866] [agent_1.guidance]: AGENT 1 received message from 0
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.433001699] [agent_1.guidance]: AGENT 1 Message processing completed. Any updates: True
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.433275623] [agent_1.guidance]: --UPDATE OCCURED-- AGENT 1 Bundle updated.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.433853833] [agent_1.guidance]: AGENT 1 --- Iteration 2
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.434179973] [agent_1.guidance]: AGENT 1 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.434191598] [agent_0.guidance]: AGENT 0 Message processing completed. Any updates: True
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.434472876] [agent_0.guidance]: --UPDATE OCCURED-- AGENT 0 Bundle updated.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.434964947] [agent_0.guidance]: AGENT 0 --- Iteration 2
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.435297439] [agent_0.guidance]: AGENT 0 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.436520569] [agent_1.guidance]: AGENT 1 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.436539215] [agent_0.guidance]: AGENT 0 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.436796587] [agent_1.guidance]: AGENT 1 Processing messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.436797423] [agent_0.guidance]: AGENT 0 Processing messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.437047737] [agent_0.guidance]: AGENT 0 received message from 1
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.437052133] [agent_1.guidance]: AGENT 1 received message from 0
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.437303973] [agent_0.guidance]: AGENT 0 Message processing completed. Any updates: True
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.437310192] [agent_1.guidance]: AGENT 1 Message processing completed. Any updates: True
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.437543813] [agent_0.guidance]: --UPDATE OCCURED-- AGENT 0 Bundle updated.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.437612769] [agent_1.guidance]: --UPDATE OCCURED-- AGENT 1 Bundle updated.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.438019382] [agent_0.guidance]: AGENT 0 --- Iteration 3
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.438143640] [agent_1.guidance]: AGENT 1 --- Iteration 3
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.438341938] [agent_0.guidance]: AGENT 0 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.438469016] [agent_1.guidance]: AGENT 1 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.439675381] [agent_1.guidance]: AGENT 1 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.439681701] [agent_0.guidance]: AGENT 0 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.439945615] [agent_1.guidance]: AGENT 1 Processing messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.439975139] [agent_0.guidance]: AGENT 0 Processing messages...
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.440208209] [agent_1.guidance]: AGENT 1 received message from 0
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.440255673] [agent_0.guidance]: AGENT 0 received message from 1
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.440514035] [agent_1.guidance]: AGENT 1 Message processing completed. Any updates: True
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.440546262] [agent_0.guidance]: AGENT 0 Message processing completed. Any updates: True
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.440771333] [agent_1.guidance]: --UPDATE OCCURED-- AGENT 1 Bundle updated.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.440820289] [agent_0.guidance]: --UPDATE OCCURED-- AGENT 0 Bundle updated.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.441241140] [agent_1.guidance]: AGENT 1 --- Iteration 4
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.441243755] [agent_0.guidance]: AGENT 0 --- Iteration 4
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.441568081] [agent_1.guidance]: AGENT 1 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.441594473] [agent_0.guidance]: AGENT 0 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.442807942] [agent_1.guidance]: AGENT 1 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.442863897] [agent_0.guidance]: AGENT 0 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.443073093] [agent_1.guidance]: AGENT 1 Processing messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.443146335] [agent_0.guidance]: AGENT 0 Processing messages...
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.443414452] [agent_1.guidance]: AGENT 1 received message from 0
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.443427062] [agent_0.guidance]: AGENT 0 received message from 1
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.443693972] [agent_1.guidance]: AGENT 1 Message processing completed. Any updates: True
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.443715206] [agent_0.guidance]: AGENT 0 Message processing completed. Any updates: True
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.443949414] [agent_1.guidance]: --UPDATE OCCURED-- AGENT 1 Bundle updated.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.443990476] [agent_0.guidance]: --UPDATE OCCURED-- AGENT 0 Bundle updated.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.445045656] [agent_1.guidance]: AGENT 1 --- Iteration 5
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.445393150] [agent_1.guidance]: AGENT 1 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.445693834] [agent_0.guidance]: AGENT 0 --- Iteration 5
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.446042466] [agent_0.guidance]: AGENT 0 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.447233683] [agent_0.guidance]: AGENT 0 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.447235159] [agent_1.guidance]: AGENT 1 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.447494449] [agent_0.guidance]: AGENT 0 Processing messages...
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.447502842] [agent_1.guidance]: AGENT 1 Processing messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.447749176] [agent_0.guidance]: AGENT 0 received message from 1
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.447756686] [agent_1.guidance]: AGENT 1 received message from 0
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.448010503] [agent_0.guidance]: AGENT 0 Message processing completed. Any updates: True
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.448018202] [agent_1.guidance]: AGENT 1 Message processing completed. Any updates: False
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.448258183] [agent_0.guidance]: --UPDATE OCCURED-- AGENT 0 Bundle updated.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.448267812] [agent_1.guidance]: --NO UPDATE-- AGENT 1 No updates.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.448530135] [agent_1.guidance]: AGENT 1 --- Iteration 6
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.448651900] [agent_0.guidance]: AGENT 0 --- Iteration 6
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.448861905] [agent_1.guidance]: AGENT 1 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.448977177] [agent_0.guidance]: AGENT 0 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.450110627] [agent_1.guidance]: AGENT 1 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.450149912] [agent_0.guidance]: AGENT 0 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.450380427] [agent_1.guidance]: AGENT 1 Processing messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.450407461] [agent_0.guidance]: AGENT 0 Processing messages...
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.450636433] [agent_1.guidance]: AGENT 1 received message from 0
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.450659517] [agent_0.guidance]: AGENT 0 received message from 1
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.450897631] [agent_1.guidance]: AGENT 1 Message processing completed. Any updates: False
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.450917361] [agent_0.guidance]: AGENT 0 Message processing completed. Any updates: False
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.451145281] [agent_1.guidance]: --NO UPDATE-- AGENT 1 No updates.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.451164278] [agent_0.guidance]: --NO UPDATE-- AGENT 0 No updates.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.451419321] [agent_1.guidance]: AGENT 1 --- Iteration 7
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.451428531] [agent_0.guidance]: AGENT 0 --- Iteration 7
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.451750659] [agent_0.guidance]: AGENT 0 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.451751522] [agent_1.guidance]: AGENT 1 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.452956661] [agent_0.guidance]: AGENT 0 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.452958093] [agent_1.guidance]: AGENT 1 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.453219808] [agent_0.guidance]: AGENT 0 Processing messages...
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.453221634] [agent_1.guidance]: AGENT 1 Processing messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.453471760] [agent_0.guidance]: AGENT 0 received message from 1
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.453479850] [agent_1.guidance]: AGENT 1 received message from 0
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.453733572] [agent_0.guidance]: AGENT 0 Message processing completed. Any updates: False
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.453739802] [agent_1.guidance]: AGENT 1 Message processing completed. Any updates: False
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.453980830] [agent_0.guidance]: --NO UPDATE-- AGENT 0 No updates.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.453990577] [agent_1.guidance]: --NO UPDATE-- AGENT 1 No updates.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.454229409] [agent_0.guidance]: AGENT 0 --- Iteration 8
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.454241033] [agent_1.guidance]: AGENT 1 Converged after 7 iterations.
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.454488918] [agent_1.guidance]: AGENT 1 Running final consensus...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.454548208] [agent_0.guidance]: AGENT 0 Exchanging messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.456432644] [agent_0.guidance]: AGENT 0 Message exchange completed. Received 1 responses.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.457578552] [agent_0.guidance]: AGENT 0 Processing messages...
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.457857103] [agent_0.guidance]: AGENT 0 received message from 1
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.458119676] [agent_0.guidance]: AGENT 0 Message processing completed. Any updates: False
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.458367379] [agent_0.guidance]: --NO UPDATE-- AGENT 0 No updates.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.458614318] [agent_0.guidance]: AGENT 0 Converged after 8 iterations.
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.458861547] [agent_0.guidance]: AGENT 0 Running final consensus...
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.460258091] [agent_1.guidance]: AGENT 1 Final Winners: {0: 0, 1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0, 8: 1, 9: 1}
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.460594829] [agent_1.guidance]: AGENT 1 Entering post-optimization phase
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.460894042] [agent_1.guidance]: AGENT 1 Waiting for neighbor 0 to complete optimization
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.461632859] [agent_0.guidance]: AGENT 0 Final Winners: {0: 0, 1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0, 8: 1, 9: 1}
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221646.461973957] [agent_0.guidance]: AGENT 0 FINAL CHECK - WINNING TASKS: [Task(id=0, coordinates=array('d', [2.8021790340820605, 0.28339349505433375]), value=1, seq_num=0), Task(id=1, coordinates=array('d', [2.8361061597893062, 1.2888959620461877]), value=1, seq_num=1), Task(id=2, coordinates=array('d', [1.1863729475836244, -1.7034630265177417]), value=1, seq_num=2), Task(id=3, coordinates=array('d', [2.8576467286574507, -2.962618468772461]), value=1, seq_num=3), Task(id=5, coordinates=array('d', [1.6762975307625148, -1.8138895523984815]), value=1, seq_num=5), Task(id=6, coordinates=array('d', [2.1779594135953335, 2.9004040630518766]), value=1, seq_num=6), Task(id=7, coordinates=array('d', [-2.0169465515718077, 0.584003663597155]), value=1, seq_num=7)]
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221646.462278883] [agent_0.guidance]: AGENT 0 FINAL CHECK - FINAL BUNDLE: [6, 1]
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221646.462573112] [agent_0.guidance]: AGENT 0 FINAL CHECK - FINAL PATH: [6, 1]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.462833031] [agent_0.guidance]: AGENT 0 Entering post-optimization phase
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.463110491] [agent_0.guidance]: AGENT 0 Waiting for neighbor 1 to complete optimization
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.962250587] [agent_1.guidance]: AGENT 1 Waiting for neighbor 0 to complete optimization
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221646.962995791] [agent_1.guidance]: AGENT 1 Neighbor 0 completed optimization
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221646.963139985] [agent_0.guidance]: AGENT 0 Neighbor 1 completed optimization
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.463895172] [agent_1.guidance]: AGENT 1 All neighbors completed optimization
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.463895167] [agent_0.guidance]: AGENT 0 All neighbors completed optimization
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.464177021] [agent_1.guidance]: AGENT 1 Synchronization successful
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.464181211] [agent_0.guidance]: AGENT 0 Synchronization successful
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221647.464671842] [agent_0.guidance]: ************* AGENT 0 Entered _Optimization ended *************
+[crazychoir_task_assignment_webots_guidance-12] [WARN] [1745221647.464708097] [agent_1.guidance]: ************* AGENT 1 Entered _Optimization ended *************
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.464934746] [agent_0.guidance]: Optimization ended
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.464975821] [agent_1.guidance]: Optimization ended
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.465184642] [agent_0.guidance]: *******AGENT 0 ENTERING get_result
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.465232332] [agent_1.guidance]: *******AGENT 1 ENTERING get_result
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.465429170] [agent_0.guidance]: AGENT 0 entering locking
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.465484865] [agent_1.guidance]: AGENT 1 entering locking
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.465679768] [agent_0.guidance]: AGENT 0 get_result: FINAL BUNDLE: [6, 1]
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.465741904] [agent_1.guidance]: AGENT 1 get_result: FINAL BUNDLE: [4, 8, 9]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.465929288] [agent_0.guidance]: AGENT 0 get_result: PATH BEFORE UPDATE: [6, 1]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.466179234] [agent_0.guidance]: AGENT 0 get_result: FINAL WINNERS: {0: 0, 1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0, 8: 1, 9: 1}
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.466426233] [agent_0.guidance]: AGENT 0 get_result: UPDATING PATH
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.466493183] [agent_1.guidance]: AGENT 1 get_result: PATH BEFORE UPDATE: [9]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.466670644] [agent_0.guidance]: AGENT 0 ENTERING UPDATE
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.466770254] [agent_1.guidance]: AGENT 1 get_result: FINAL WINNERS: {0: 0, 1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0, 8: 1, 9: 1}
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.466920465] [agent_0.guidance]: AGENT 0 ASSIGNED TASKS: [0, 1, 2, 3, 5, 6, 7]
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.467018217] [agent_1.guidance]: AGENT 1 get_result: UPDATING PATH
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.467194624] [agent_0.guidance]: AGENT 0 checking task Task(id=0, coordinates=array('d', [2.8021790340820605, 0.28339349505433375]), value=1, seq_num=0)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.467266029] [agent_1.guidance]: AGENT 1 ENTERING UPDATE
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.467495663] [agent_0.guidance]: ***AGENT 0 Score for task 0: 0.9053084530537778
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.467516946] [agent_1.guidance]: AGENT 1 ASSIGNED TASKS: [4, 8, 9]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.467753505] [agent_0.guidance]: AGENT 0 checking task Task(id=1, coordinates=array('d', [2.8361061597893062, 1.2888959620461877]), value=1, seq_num=1)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.467788854] [agent_1.guidance]: AGENT 1 checking task Task(id=4, coordinates=array('d', [-1.4821058256993362, -0.39125080557332526]), value=1, seq_num=4)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.468027115] [agent_0.guidance]: ***AGENT 0 Score for task 1: 0.909065087147123
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.468076263] [agent_1.guidance]: ***AGENT 1 Score for task 4: 0.884044626336984
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.468283302] [agent_0.guidance]: AGENT 0 checking task Task(id=2, coordinates=array('d', [1.1863729475836244, -1.7034630265177417]), value=1, seq_num=2)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.468334987] [agent_1.guidance]: AGENT 1 checking task Task(id=8, coordinates=array('d', [-2.9460834139946703, -0.6805723041382237]), value=1, seq_num=8)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.468558240] [agent_0.guidance]: ***AGENT 0 Score for task 2: 0.8702292033956205
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.468616357] [agent_1.guidance]: ***AGENT 1 Score for task 8: 0.8286110074576498
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.468811811] [agent_0.guidance]: AGENT 0 checking task Task(id=3, coordinates=array('d', [2.8576467286574507, -2.962618468772461]), value=1, seq_num=3)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.468872055] [agent_1.guidance]: AGENT 1 checking task Task(id=9, coordinates=array('d', [-2.7350396524110026, 2.7399178062854155]), value=1, seq_num=9)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.469074951] [agent_0.guidance]: ***AGENT 0 Score for task 3: 0.7989300802580545
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.469137641] [agent_1.guidance]: ***AGENT 1 Score for task 9: 0.8572443288212738
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.469326421] [agent_0.guidance]: AGENT 0 checking task Task(id=5, coordinates=array('d', [1.6762975307625148, -1.8138895523984815]), value=1, seq_num=5)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.469384815] [agent_1.guidance]: AGENT 1 ADDING Best task: 4 with score: 0.884044626336984
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.469589932] [agent_0.guidance]: ***AGENT 0 Score for task 5: 0.8620484281825187
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.469629900] [agent_1.guidance]: AGENT 1 Removing from remaining tasks: 4
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.469842022] [agent_0.guidance]: AGENT 0 checking task Task(id=6, coordinates=array('d', [2.1779594135953335, 2.9004040630518766]), value=1, seq_num=6)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.469873614] [agent_1.guidance]: AGENT 1 Remaining tasks: [4, 8, 9]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.470103108] [agent_0.guidance]: ***AGENT 0 Score for task 6: 0.8916467499297156
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.470117543] [agent_1.guidance]: AGENT 1 Remaining tasks AFTER UPDATE: [8, 9]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.470354536] [agent_0.guidance]: AGENT 0 checking task Task(id=7, coordinates=array('d', [-2.0169465515718077, 0.584003663597155]), value=1, seq_num=7)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.470370517] [agent_1.guidance]: AGENT 1 checking task Task(id=8, coordinates=array('d', [-2.9460834139946703, -0.6805723041382237]), value=1, seq_num=8)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.470616600] [agent_0.guidance]: ***AGENT 0 Score for task 7: 0.85537671885515
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.470637909] [agent_1.guidance]: ***AGENT 1 Score for task 8: 0.9263115948301626
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.470864315] [agent_0.guidance]: AGENT 0 ADDING Best task: 1 with score: 0.909065087147123
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.470891697] [agent_1.guidance]: AGENT 1 checking task Task(id=9, coordinates=array('d', [-2.7350396524110026, 2.7399178062854155]), value=1, seq_num=9)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.471107377] [agent_0.guidance]: AGENT 0 Removing from remaining tasks: 1
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.471159855] [agent_1.guidance]: ***AGENT 1 Score for task 9: 0.8411469131708884
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.471350394] [agent_0.guidance]: AGENT 0 Remaining tasks: [0, 1, 2, 3, 5, 6, 7]
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.471422998] [agent_1.guidance]: AGENT 1 ADDING Best task: 8 with score: 0.9263115948301626
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.471593637] [agent_0.guidance]: AGENT 0 Remaining tasks AFTER UPDATE: [0, 2, 3, 5, 6, 7]
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.471668741] [agent_1.guidance]: AGENT 1 Removing from remaining tasks: 8
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.471846152] [agent_0.guidance]: AGENT 0 checking task Task(id=0, coordinates=array('d', [2.8021790340820605, 0.28339349505433375]), value=1, seq_num=0)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.471914893] [agent_1.guidance]: AGENT 1 Remaining tasks: [8, 9]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.472112585] [agent_0.guidance]: ***AGENT 0 Score for task 0: 0.9497040352983941
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.472159917] [agent_1.guidance]: AGENT 1 Remaining tasks AFTER UPDATE: [9]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.472366157] [agent_0.guidance]: AGENT 0 checking task Task(id=2, coordinates=array('d', [1.1863729475836244, -1.7034630265177417]), value=1, seq_num=2)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.472417378] [agent_1.guidance]: AGENT 1 checking task Task(id=9, coordinates=array('d', [-2.7350396524110026, 2.7399178062854155]), value=1, seq_num=9)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.472692430] [agent_1.guidance]: ***AGENT 1 Score for task 9: 0.838800953297093
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.472643237] [agent_0.guidance]: ***AGENT 0 Score for task 2: 0.8392314394449955
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.472896340] [agent_0.guidance]: AGENT 0 checking task Task(id=3, coordinates=array('d', [2.8576467286574507, -2.962618468772461]), value=1, seq_num=3)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.472943354] [agent_1.guidance]: AGENT 1 ADDING Best task: 9 with score: 0.838800953297093
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.473162238] [agent_0.guidance]: ***AGENT 0 Score for task 3: 0.8040635422599262
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.473187920] [agent_1.guidance]: AGENT 1 Removing from remaining tasks: 9
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.473415337] [agent_0.guidance]: AGENT 0 checking task Task(id=5, coordinates=array('d', [1.6762975307625148, -1.8138895523984815]), value=1, seq_num=5)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.473432139] [agent_1.guidance]: AGENT 1 Remaining tasks: [9]
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.473675306] [agent_1.guidance]: AGENT 1 Remaining tasks AFTER UPDATE: []
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.473680409] [agent_0.guidance]: ***AGENT 0 Score for task 5: 0.8437430136561527
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.473922598] [agent_1.guidance]: AGENT 1 get_result: PATH AFTER UPDATE: [4, 8, 9]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.473933329] [agent_0.guidance]: AGENT 0 checking task Task(id=6, coordinates=array('d', [2.1779594135953335, 2.9004040630518766]), value=1, seq_num=6)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.474168833] [agent_1.guidance]: AGENT 1 get_result: TASK 4 FOUND IN TASK MAP. NOW ADDING
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.474197771] [agent_0.guidance]: ***AGENT 0 Score for task 6: 0.9145826832577023
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.474415917] [agent_1.guidance]: AGENT 1 get_result: TASK 8 FOUND IN TASK MAP. NOW ADDING
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.474450381] [agent_0.guidance]: AGENT 0 checking task Task(id=7, coordinates=array('d', [-2.0169465515718077, 0.584003663597155]), value=1, seq_num=7)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.474657989] [agent_1.guidance]: AGENT 1 get_result: TASK 9 FOUND IN TASK MAP. NOW ADDING
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.474716989] [agent_0.guidance]: ***AGENT 0 Score for task 7: 0.7776014559473894
+[crazychoir_task_assignment_webots_guidance-12] [WARN] [1745221647.474948426] [agent_1.guidance]: AGENT 1 get_result: FINAL ASSIGNED TASKS: [4, 8, 9] NOW EXITING
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.474965840] [agent_0.guidance]: AGENT 0 ADDING Best task: 0 with score: 0.9497040352983941
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.475203850] [agent_1.guidance]: AGENT 1 Optimization result: [4, 8, 9]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.475210001] [agent_0.guidance]: AGENT 0 Removing from remaining tasks: 0
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.475454519] [agent_0.guidance]: AGENT 0 Remaining tasks: [0, 2, 3, 5, 6, 7]
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.475478264] [agent_1.guidance]: AGENT 1 task queue: [4, 8, 9]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.475698294] [agent_0.guidance]: AGENT 0 Remaining tasks AFTER UPDATE: [2, 3, 5, 6, 7]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.475962661] [agent_0.guidance]: AGENT 0 checking task Task(id=2, coordinates=array('d', [1.1863729475836244, -1.7034630265177417]), value=1, seq_num=2)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.476231772] [agent_0.guidance]: ***AGENT 0 Score for task 2: 0.8769027394652315
+[crazychoir_task_assignment_webots_guidance-12] [WARN] [1745221647.476257506] [agent_1.guidance]: ********AGENT 1 Entered start_new_task******
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.476492232] [agent_0.guidance]: AGENT 0 checking task Task(id=3, coordinates=array('d', [2.8576467286574507, -2.962618468772461]), value=1, seq_num=3)
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221647.476523379] [agent_1.guidance]: Got new task (seq_num 4) - starting execution
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.476763516] [agent_0.guidance]: ***AGENT 0 Score for task 3: 0.8466033836812815
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.477021494] [agent_0.guidance]: AGENT 0 checking task Task(id=5, coordinates=array('d', [1.6762975307625148, -1.8138895523984815]), value=1, seq_num=5)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.477296014] [agent_0.guidance]: ***AGENT 0 Score for task 5: 0.8850620767031053
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.477551999] [agent_0.guidance]: AGENT 0 checking task Task(id=6, coordinates=array('d', [2.1779594135953335, 2.9004040630518766]), value=1, seq_num=6)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.477824016] [agent_0.guidance]: ***AGENT 0 Score for task 6: 0.8710979638630939
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.478085643] [agent_0.guidance]: AGENT 0 checking task Task(id=7, coordinates=array('d', [-2.0169465515718077, 0.584003663597155]), value=1, seq_num=7)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.478358914] [agent_0.guidance]: ***AGENT 0 Score for task 7: 0.7806180689783383
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.478607962] [agent_0.guidance]: AGENT 0 ADDING Best task: 5 with score: 0.8850620767031053
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.478872774] [agent_0.guidance]: AGENT 0 Removing from remaining tasks: 5
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.479121345] [agent_0.guidance]: AGENT 0 Remaining tasks: [2, 3, 5, 6, 7]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.479366171] [agent_0.guidance]: AGENT 0 Remaining tasks AFTER UPDATE: [2, 3, 6, 7]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.479622985] [agent_0.guidance]: AGENT 0 checking task Task(id=2, coordinates=array('d', [1.1863729475836244, -1.7034630265177417]), value=1, seq_num=2)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.479900742] [agent_0.guidance]: ***AGENT 0 Score for task 2: 0.9745686925299415
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.480155849] [agent_0.guidance]: AGENT 0 checking task Task(id=3, coordinates=array('d', [2.8576467286574507, -2.962618468772461]), value=1, seq_num=3)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.480423677] [agent_0.guidance]: ***AGENT 0 Score for task 3: 0.9189534295344953
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.480683589] [agent_0.guidance]: AGENT 0 checking task Task(id=6, coordinates=array('d', [2.1779594135953335, 2.9004040630518766]), value=1, seq_num=6)
+[crazychoir_task_assignment_webots_planner-14] [INFO] [1745221647.480895454] [agent_1.planner]: Moving robot to position [-1.48210583 -0.39125081]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.480949912] [agent_0.guidance]: ***AGENT 0 Score for task 6: 0.7841327888994859
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.481203294] [agent_0.guidance]: AGENT 0 checking task Task(id=7, coordinates=array('d', [-2.0169465515718077, 0.584003663597155]), value=1, seq_num=7)
+[crazychoir_task_assignment_webots_planner-14] [INFO] [1745221647.481304241] [agent_1.planner]: Goal [-1.4821058256993362, -0.39125080557332526, 0.65] sent
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.481470882] [agent_0.guidance]: ***AGENT 0 Score for task 7: 0.797825830103078
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.481718859] [agent_0.guidance]: AGENT 0 ADDING Best task: 2 with score: 0.9745686925299415
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.481962269] [agent_0.guidance]: AGENT 0 Removing from remaining tasks: 2
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.482205992] [agent_0.guidance]: AGENT 0 Remaining tasks: [2, 3, 6, 7]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.482447004] [agent_0.guidance]: AGENT 0 Remaining tasks AFTER UPDATE: [3, 6, 7]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.482698129] [agent_0.guidance]: AGENT 0 checking task Task(id=3, coordinates=array('d', [2.8576467286574507, -2.962618468772461]), value=1, seq_num=3)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.482966214] [agent_0.guidance]: ***AGENT 0 Score for task 3: 0.8982273187673064
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.483219253] [agent_0.guidance]: AGENT 0 checking task Task(id=6, coordinates=array('d', [2.1779594135953335, 2.9004040630518766]), value=1, seq_num=6)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.483485324] [agent_0.guidance]: ***AGENT 0 Score for task 6: 0.7853995175981161
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.483738524] [agent_0.guidance]: AGENT 0 checking task Task(id=7, coordinates=array('d', [-2.0169465515718077, 0.584003663597155]), value=1, seq_num=7)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.484006468] [agent_0.guidance]: ***AGENT 0 Score for task 7: 0.8171756226928071
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.484253896] [agent_0.guidance]: AGENT 0 ADDING Best task: 3 with score: 0.8982273187673064
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.484514349] [agent_0.guidance]: AGENT 0 Removing from remaining tasks: 3
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.484760504] [agent_0.guidance]: AGENT 0 Remaining tasks: [3, 6, 7]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.485008527] [agent_0.guidance]: AGENT 0 Remaining tasks AFTER UPDATE: [6, 7]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.485271843] [agent_0.guidance]: AGENT 0 checking task Task(id=6, coordinates=array('d', [2.1779594135953335, 2.9004040630518766]), value=1, seq_num=6)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.485563121] [agent_0.guidance]: ***AGENT 0 Score for task 6: 0.7387853833612938
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.485825480] [agent_0.guidance]: AGENT 0 checking task Task(id=7, coordinates=array('d', [-2.0169465515718077, 0.584003663597155]), value=1, seq_num=7)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.486104197] [agent_0.guidance]: ***AGENT 0 Score for task 7: 0.73402626936574
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.486353332] [agent_0.guidance]: AGENT 0 ADDING Best task: 6 with score: 0.7387853833612938
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.486598490] [agent_0.guidance]: AGENT 0 Removing from remaining tasks: 6
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.486842832] [agent_0.guidance]: AGENT 0 Remaining tasks: [6, 7]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.487088142] [agent_0.guidance]: AGENT 0 Remaining tasks AFTER UPDATE: [7]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.487345413] [agent_0.guidance]: AGENT 0 checking task Task(id=7, coordinates=array('d', [-2.0169465515718077, 0.584003663597155]), value=1, seq_num=7)
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.487628009] [agent_0.guidance]: ***AGENT 0 Score for task 7: 0.782081933668197
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.487882444] [agent_0.guidance]: AGENT 0 ADDING Best task: 7 with score: 0.782081933668197
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.488132662] [agent_0.guidance]: AGENT 0 Removing from remaining tasks: 7
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.488381787] [agent_0.guidance]: AGENT 0 Remaining tasks: [7]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.488639301] [agent_0.guidance]: AGENT 0 Remaining tasks AFTER UPDATE: []
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.488891582] [agent_0.guidance]: AGENT 0 get_result: PATH AFTER UPDATE: [1, 0, 5, 2, 3, 6, 7]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.489140924] [agent_0.guidance]: AGENT 0 get_result: TASK 1 FOUND IN TASK MAP. NOW ADDING
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.489386929] [agent_0.guidance]: AGENT 0 get_result: TASK 0 FOUND IN TASK MAP. NOW ADDING
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.489634459] [agent_0.guidance]: AGENT 0 get_result: TASK 5 FOUND IN TASK MAP. NOW ADDING
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.489880327] [agent_0.guidance]: AGENT 0 get_result: TASK 2 FOUND IN TASK MAP. NOW ADDING
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.490124270] [agent_0.guidance]: AGENT 0 get_result: TASK 3 FOUND IN TASK MAP. NOW ADDING
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.490370856] [agent_0.guidance]: AGENT 0 get_result: TASK 6 FOUND IN TASK MAP. NOW ADDING
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.490613181] [agent_0.guidance]: AGENT 0 get_result: TASK 7 FOUND IN TASK MAP. NOW ADDING
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221647.490903732] [agent_0.guidance]: AGENT 0 get_result: FINAL ASSIGNED TASKS: [1, 0, 5, 2, 3, 6, 7] NOW EXITING
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.491164427] [agent_0.guidance]: AGENT 0 Optimization result: [1, 0, 5, 2, 3, 6, 7]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.491438770] [agent_0.guidance]: AGENT 0 task queue: [1, 0, 5, 2, 3, 6, 7]
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221647.492247703] [agent_0.guidance]: ********AGENT 0 Entered start_new_task******
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221647.492517950] [agent_0.guidance]: Got new task (seq_num 1) - starting execution
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221647.494570738] [agent_0.planner]: Moving robot to position [2.83610616 1.28889596]
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221647.494998951] [agent_0.planner]: Goal [2.8361061597893062, 1.2888959620461877, 0.5] sent
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221665.174764620] [agent_0.planner]: Goal reached - current position: [2.78650495 1.28452292]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221665.176264616] [agent_0.guidance]: Task completed (seq_num 1)
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221665.176892331] [agent_0.guidance]: ********AGENT 0 Entered start_new_task******
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221665.177158278] [agent_0.guidance]: Got new task (seq_num 0) - starting execution
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221665.178893094] [agent_0.planner]: Moving robot to position [2.80217903 0.2833935 ]
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221665.179232069] [agent_0.planner]: Goal [2.8021790340820605, 0.28339349505433375, 0.5] sent
+[crazychoir_task_assignment_webots_planner-14] [INFO] [1745221665.565596839] [agent_1.planner]: Goal reached - current position: [-1.45112568 -0.35224584]
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221665.566623135] [agent_1.guidance]: Task completed (seq_num 4)
+[crazychoir_task_assignment_webots_guidance-12] [WARN] [1745221665.567216433] [agent_1.guidance]: ********AGENT 1 Entered start_new_task******
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221665.567769337] [agent_1.guidance]: Got new task (seq_num 8) - starting execution
+[crazychoir_task_assignment_webots_planner-14] [INFO] [1745221665.569569393] [agent_1.planner]: Moving robot to position [-2.94608341 -0.6805723 ]
+[crazychoir_task_assignment_webots_planner-14] [INFO] [1745221665.569922530] [agent_1.planner]: Goal [-2.9460834139946703, -0.6805723041382237, 0.65] sent
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221682.258360132] [agent_0.planner]: Goal reached - current position: [2.80522805 0.33322255]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221682.259502600] [agent_0.guidance]: Task completed (seq_num 0)
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221682.260076076] [agent_0.guidance]: ********AGENT 0 Entered start_new_task******
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221682.260342844] [agent_0.guidance]: Got new task (seq_num 5) - starting execution
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221682.262205747] [agent_0.planner]: Moving robot to position [ 1.67629753 -1.81388955]
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221682.262555649] [agent_0.planner]: Goal [1.6762975307625148, -1.8138895523984815, 0.5] sent
+[crazychoir_task_assignment_webots_planner-14] [INFO] [1745221683.169591482] [agent_1.planner]: Goal reached - current position: [-2.89744176 -0.67044696]
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221683.170495419] [agent_1.guidance]: Task completed (seq_num 8)
+[crazychoir_task_assignment_webots_guidance-12] [WARN] [1745221683.171053096] [agent_1.guidance]: ********AGENT 1 Entered start_new_task******
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221683.171310932] [agent_1.guidance]: Got new task (seq_num 9) - starting execution
+[crazychoir_task_assignment_webots_planner-14] [INFO] [1745221683.173042807] [agent_1.planner]: Moving robot to position [-2.73503965  2.73991781]
+[crazychoir_task_assignment_webots_planner-14] [INFO] [1745221683.173388648] [agent_1.planner]: Goal [-2.7350396524110026, 2.7399178062854155, 0.65] sent
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221700.440805351] [agent_0.planner]: Goal reached - current position: [ 1.69734069 -1.76882737]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221700.441748691] [agent_0.guidance]: Task completed (seq_num 5)
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221700.442317443] [agent_0.guidance]: ********AGENT 0 Entered start_new_task******
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221700.442577249] [agent_0.guidance]: Got new task (seq_num 2) - starting execution
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221700.444385412] [agent_0.planner]: Moving robot to position [ 1.18637295 -1.70346303]
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221700.444745395] [agent_0.planner]: Goal [1.1863729475836244, -1.7034630265177417, 0.5] sent
+[crazychoir_task_assignment_webots_planner-14] [INFO] [1745221701.686518254] [agent_1.planner]: Goal reached - current position: [-2.73540214  2.69042828]
+[crazychoir_task_assignment_webots_guidance-12] [INFO] [1745221701.687631156] [agent_1.guidance]: Task completed (seq_num 9)
+[crazychoir_task_assignment_webots_guidance-12] [WARN] [1745221701.688190036] [agent_1.guidance]: ********AGENT 1 Entered start_new_task******
+[crazychoir_task_assignment_webots_guidance-12] [WARN] [1745221701.688491740] [agent_1.guidance]: ********AGENT 1 start_new_task: Queue is EMPTY.******
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221716.379724231] [agent_0.planner]: Goal reached - current position: [ 1.23489452 -1.71465688]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221716.380725888] [agent_0.guidance]: Task completed (seq_num 2)
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221716.381297092] [agent_0.guidance]: ********AGENT 0 Entered start_new_task******
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221716.381658752] [agent_0.guidance]: Got new task (seq_num 3) - starting execution
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221716.383540888] [agent_0.planner]: Moving robot to position [ 2.85764673 -2.96261847]
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221716.383884633] [agent_0.planner]: Goal [2.8576467286574507, -2.962618468772461, 0.5] sent
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221734.358980650] [agent_0.planner]: Goal reached - current position: [ 2.81841354 -2.93221114]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221734.360043363] [agent_0.guidance]: Task completed (seq_num 3)
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221734.360610306] [agent_0.guidance]: ********AGENT 0 Entered start_new_task******
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221734.360870314] [agent_0.guidance]: Got new task (seq_num 6) - starting execution
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221734.362507314] [agent_0.planner]: Moving robot to position [2.17795941 2.90040406]
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221734.362853027] [agent_0.planner]: Goal [2.1779594135953335, 2.9004040630518766, 0.5] sent
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221753.315563542] [agent_0.planner]: Goal reached - current position: [2.18356181 2.8510676 ]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221753.316491203] [agent_0.guidance]: Task completed (seq_num 6)
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221753.317134902] [agent_0.guidance]: ********AGENT 0 Entered start_new_task******
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221753.317399925] [agent_0.guidance]: Got new task (seq_num 7) - starting execution
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221753.319205853] [agent_0.planner]: Moving robot to position [-2.01694655  0.58400366]
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221753.319543088] [agent_0.planner]: Goal [-2.0169465515718077, 0.584003663597155, 0.5] sent
+[crazychoir_task_assignment_webots_planner-9] [INFO] [1745221772.096577969] [agent_0.planner]: Goal reached - current position: [-1.97275644  0.60700899]
+[crazychoir_task_assignment_webots_guidance-7] [INFO] [1745221772.097590507] [agent_0.guidance]: Task completed (seq_num 7)
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221772.098170130] [agent_0.guidance]: ********AGENT 0 Entered start_new_task******
+[crazychoir_task_assignment_webots_guidance-7] [WARN] [1745221772.098472586] [agent_0.guidance]: ********AGENT 0 start_new_task: Queue is EMPTY.******
